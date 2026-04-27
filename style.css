@@ -11,12 +11,11 @@ body {
 }
 
 #main_header {
-    color: red;
     text-align: center;
-
+    font-size: 100px
 }
 
 p {
     text-align: center;
-
+    font-size: 30px
 }
