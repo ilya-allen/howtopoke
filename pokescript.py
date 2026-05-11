@@ -10,7 +10,7 @@ if response.status_code == 200:
     print(f"Abilities: {[ability['ability']['name'] for ability in data['abilities']]}")
 
 # This is how you change the text of an item
-new_text = "Yes Boys"
+new_text = "HowToPoke"
 header_access = web.page["main_header"]
 header_access.innerText = new_text
 
